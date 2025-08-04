@@ -1,10 +1,9 @@
 import express from "express"
+import notesRouter from "./routes/notesRoutes.js";
 
 const app = express();
 
-app.get("/api/notes", (req, res) => {
-  res.send("Have the notes");
-});
+app.use("/api/notes", notesRoutes);
 
 app.listen(8000, () => {
   console.log("Server is running on port: 8000");
