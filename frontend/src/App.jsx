@@ -1,10 +1,17 @@
+import React from 'react'
+import { Route, Routes } from 'react-router'
+import HomePage from './pages/HomePage'
 
-
-function App() {
-
+const App = () => {
   return (
     <>
-      <div>Hello</div>
+    <div>
+      <Routes>
+        <Route path='/' element= {<HomePage/>}/>
+        <Route path='/' element= {<HomePage/>}/>
+        <Route path='/' element= {<HomePage/>}/>
+      </Routes>
+    </div>
     </>
   )
 }
