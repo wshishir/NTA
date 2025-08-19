@@ -5,7 +5,7 @@ const NotesNotFound = () => {
   return (
     <div className="flex flex-col items-center justify-center py-16 space-y-6 max-w-md mx-auto text-center">
       <div className="bg-base-200 rounded-full p-8">
-        <NotebookIcon className="size-10 text-primary" />
+        <NotebookIcon className="size-10 text-neutral" />
       </div>
       <h3 className="text-2xl font-bold">No notes yet</h3>
       <p className="text-base-content/70">
